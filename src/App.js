@@ -1,5 +1,10 @@
+import NavbarItem from "./components/Navbar";
+
 function App() {
-    return ( <h1>hello</h1> );
+    return ( 
+
+        <NavbarItem/>
+     )
 }
 
 export default App;
