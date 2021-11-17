@@ -5,11 +5,11 @@ function NavbarItem () {
 
         <Navbar  bg="primary" variant="dark">
         <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home">My Trip</Navbar.Brand>
         <Nav className="ms-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#home">Destinations</Nav.Link>
+          <Nav.Link href="#features">Signup</Nav.Link>
+          <Nav.Link href="#pricing">login</Nav.Link>
         </Nav>
         </Container>
       </Navbar>
