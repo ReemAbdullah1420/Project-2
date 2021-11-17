@@ -5,12 +5,11 @@ import Cardhotel from "./components/Cardhotel";
 
 function App() {
 
-const [hotels,sethotels]=useState([])
+const [hotels,setHotel]=useState([])
 const gethotels=async()=>{
     try {
     const response = await axios.get("https://sandbox.impala.travel/v1/hotels")
-    hotels=response.data.data
-    sethotels(hotels)
+    setHotel(response.data.data)
 } catch (error) {
     console.log(error?.response?.data.data)
   }
