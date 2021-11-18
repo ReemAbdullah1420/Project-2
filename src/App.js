@@ -22,7 +22,7 @@ const gethotels=async()=>{
     return ( 
 <>
         <NavbarItem/>
-        <Cardhotel/>
+        <Cardhotel hotels={hotels}/>
         </>
      )
 }
