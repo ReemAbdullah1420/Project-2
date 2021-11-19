@@ -1,0 +1,22 @@
+.Title {
+    color: rgb(8, 8, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 400px;
+    border: 12 solid white;
+}
+
+.titles {
+    background-color: rgb(224, 224, 226);
+    opacity: 0.6;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(56, 55, 55);
+    font-size: 23px;
+
+}

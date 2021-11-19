@@ -1,20 +1,34 @@
-import { Navbar,Container,Nav } from "react-bootstrap"
-
-function NavbarItem () {
-    return (
-
-        <Navbar  bg="primary" variant="dark">
-        <Container>
-        <Navbar.Brand href="#home">My Trip</Navbar.Brand>
-        <Nav className="ms-auto">
-          <Nav.Link href="#home">Destinations</Nav.Link>
-          <Nav.Link href="#features">Signup</Nav.Link>
-          <Nav.Link href="#pricing">login</Nav.Link>
-        </Nav>
-        </Container>
-      </Navbar>
-
-      )
+import { Link } from "react-router-dom"
+import styles from "./Navbar.module.css"
+function NavbarItem() {
+  return (
+    <>
+      <nav className={styles.navbar}>
+        <div className={styles.logo}>
+          <h3>My Trip</h3>
+        </div>
+        <div>
+          <ul className={styles.navbar_list}>
+            <li className={styles.navbar_items}>
+              <Link className={styles.navbar_items} to="/about">
+                About
+              </Link>
+            </li>
+            <li className={styles.navbar_items}>
+              <Link className={styles.navbar_items} to="/destinations">
+                Destinations
+              </Link>
+            </li>
+            <li className={styles.navbar_items}>
+              <Link className={styles.navbar_items} to="/hotel">
+                Hotels
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
+  )
 }
 
 export default NavbarItem
