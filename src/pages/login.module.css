@@ -1,0 +1,38 @@
+.formlogin {
+    background-color: rgba(255, 255, 255, 0.315);
+    text-align: center;
+    border-radius: 10px;
+    margin: 200px;
+
+}
+
+a {
+    font-size: 15px;
+}
+
+.label {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.input {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.btn {
+    background-color: rgb(144, 115, 168);
+    color: rgb(60, 50, 70);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(83, 83, 83);
+    font-family: 'Times New Roman', Times, serif;
+}

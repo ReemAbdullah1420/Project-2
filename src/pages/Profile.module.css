@@ -1,0 +1,60 @@
+.img {
+    border-radius: 20%;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Profile {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px;
+    width: 45%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking {
+    background-color: rgb(255, 255, 255);
+}
+
+.Name {
+    margin-top: 40px;
+    background-color: #cdccd1;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 90px;
+    width: 280px;
+    border: 1px solid black;
+}
+
+.email {
+    font-size: 20px;
+    background-color: #cdccd1;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 90px;
+    width: 280px;
+    border: 1px solid black;
+
+}
+
+.account {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 120px;
+    color: rgb(45, 32, 58);
+    font-size: 40px;
+}

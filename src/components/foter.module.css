@@ -1,1 +1,55 @@
-.foter{background-color: tomato;}
+.foter {
+    background-color: #43425D;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    padding: 20px;
+    filter: invert(1);
+}
+
+.call {
+    filter: invert(1);
+    padding-left: 50px;
+    font-size: 19px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.call1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imgs {
+    width: 50px;
+    height: 50px;
+}
+
+.p {
+    font-size: 10px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}

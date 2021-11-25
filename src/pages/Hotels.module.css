@@ -1,0 +1,63 @@
+.card {
+    background-color: rgb(255, 255, 255);
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+
+
+
+}
+
+.loding {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imge {
+    height: 300px;
+    width: 350px;
+
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.informtion {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price {
+    background-color: lightcoral;
+    width: 95px;
+    border-radius: 3px;
+    color: black;
+
+
+}
+
+.button {
+    background-color: rgb(197, 241, 160);
+    border: 0 solid rgb(197, 241, 160);
+}
+
+.button:hover {
+    background-color: white;
+    transform: translateZ(-12);
+    transition: 0.5s;
+}
+
+.p {
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+}
+
+.loding {
+    font-size: 50px;
+}

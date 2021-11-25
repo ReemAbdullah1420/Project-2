@@ -1,4 +1,6 @@
-.Cards{background-color: rgb(225, 189, 228);
-width: 50%;
-display: flex;
-flex-direction: row;}
+.Cards {
+    background-color: rgb(225, 189, 228);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}

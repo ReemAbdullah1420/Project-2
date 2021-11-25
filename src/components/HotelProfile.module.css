@@ -1,0 +1,72 @@
+.booking {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 50px;
+    height: 90vh;
+    margin-bottom: 10%;
+
+
+}
+
+.imgess {
+    border-radius: 2px;
+    height: 300px;
+    width: 350px;
+    margin: 30px;
+
+}
+
+.price {
+    color: brown;
+}
+
+.information {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+
+    margin: 20px;
+}
+
+.buttondelet {
+    background-color: rgb(199, 75, 75);
+    border: 0 solid rgb(167, 75, 63);
+    height: 50%;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.buttonedit {
+    background-color: rgb(61, 120, 187);
+    border: 0 solid rgb(61, 120, 187);
+    height: 50%;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 4px;
+}
+
+.buttonedit:hover {
+    background-color: rgb(66, 98, 156);
+    transform: translateZ(-12);
+    transition: 0.5s;
+}
+
+.buttondelet:hover {
+    background-color: rgb(138, 17, 17);
+    transform: translateZ(-12);
+    transition: 0.5s;
+}
+
+.start {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+}
+
+.title {
+    color: rgb(77, 65, 95);
+}

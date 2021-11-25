@@ -5,7 +5,7 @@ function Carditem() {
   return (
     <>
       <Card style={{ width: "18rem" }} className="mt-5">
-        <Card.Img variant="top" src="https://media-cdn.tripadvisor.com/media/photo-s/18/49/a5/e0/sur-grand-hotel.jpg" />
+        <Card.Img variant="top" src={} />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
