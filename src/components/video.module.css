@@ -2,9 +2,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     object-fit: cover;
     z-index: -1;
     margin-bottom: 30px;
+
 
 }
